@@ -1,5 +1,6 @@
 # Sudoku-solver-visualization
 This project contains a sudoku solver that solve mind puzzles .
+![image alt](https://github.com/24vishwakarmad/Sudoku-solver-visualization/blob/40c611ed5287e96c5407061722b15b99c6f93081/Screenshot%202025-11-03%20002719.png)
 
 # Sudoku Solver
 
