@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sudoku Solver Visualization</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <h1>Sudoku Solver </h1>
+
+  <p class="quote">"Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding." – William Paul Thurston</p>
+
+  <table id="sudoku-grid"></table>
+
+  <button id="loadExampleBtn">Load Example Sudoku</button>
+  <button id="resetBtn">Reset Sudoku</button>
+  <button id="solveBtn">Solve Sudoku</button>
+
+  <script src="{{ url_for('static', filename='sudoku.js') }}"></script>
+</body>
+</html>
